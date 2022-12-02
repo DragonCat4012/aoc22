@@ -18,6 +18,8 @@ async function a(){
        
         var i = sumArr.sort((a, b) => a - b)
         console.log(i[i.length - 1])
+        //part two
+        console.log(i[i.length - 1] + i[i.length - 2] + i[i.length - 3])
         return i
     })
 }
